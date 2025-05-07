@@ -1,0 +1,5 @@
+﻿  Lab1_Var_7.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\sal.h(2361,1): error C2144: синтаксическая ошибка: перед "int" требуется ";"
+  (компиляция исходного файла "Lab1_Var_7.cpp")
+  
+C:\Users\user\source\repos\OOP_Tanya\Lab1(sort)\Lab1_Var_7 (Tanya) (do)\Lab1_Var_7.cpp(1,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
