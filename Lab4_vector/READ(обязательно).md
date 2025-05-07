@@ -1,4 +1,5 @@
 Диаграмма классов (3 пункт задания)
+```plaintext
 ┌─────────────────────────────────┐
 │        TrainStack<T>            │
 ├─────────────────────────────────┤
@@ -24,9 +25,10 @@
 ├─────────────────────────────────┤
 │ + createTrain(wagonCount: int): │
 │           void                  │
-│ + sortTrains(): void            │
+│ + sortTrains(): void           │
 │ + printTrain(title: const       │
 │   std::string&, train: const    │
 │   TrainStack<WagonType>&): void │
 │ + printOriginalTrain(): void    │
 └─────────────────────────────────┘
+```
