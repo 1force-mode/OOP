@@ -99,8 +99,8 @@ int main() {
 
     while (true) {
         cout << "\nMenu:\n";
-        cout << "1. Generate uniform distribution array (a=0, b=N*10)\n";
-        cout << "2. Generate normal distribution array (µ=N*5, σ=N*2.5)\n";
+        cout << "1. Generate uniform distribution array\n";
+        cout << "2. Generate normal distribution array\n";
         cout << "3. Calculate mean and standard deviation\n";
         cout << "4. Create histogram\n";
         cout << "0. Exit\n";
