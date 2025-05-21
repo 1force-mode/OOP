@@ -85,10 +85,10 @@ void CreateHistogram(double* array, int size) {
     cout << "\n=== Histogram ===\n";
     //Вывод гистограммы
     for (const auto& pair : histogram){
-        double interval_start = min_val + pair.first * bin_width; //Начало интервала
-        double interval_end = interval_start + bin_width; //Конец интервала
+        double interval_start = min_val + pair.first * bin_width; 
+        double interval_end = interval_start + bin_width; 
         cout << "[" << interval_start << " - " << interval_end << "]: "
-            << string(pair.second * 20 / size, '*') << endl; //Масштабирует число звёздочек, чтобы гистограмма помещалась в консоли
+            << string(pair.second * 20 / size, '*') << endl;
     }
 }
 
