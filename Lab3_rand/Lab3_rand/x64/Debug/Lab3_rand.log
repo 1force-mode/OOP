@@ -1,0 +1,4 @@
+﻿  Lab3_rand.cpp
+C:\Users\user\source\repos\OOP_Tanya\Lab3(rand)\Lab3_rand\Lab3_rand.cpp(76,18): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\source\repos\OOP_Tanya\Lab3(rand)\Lab3_rand\Lab3_rand.cpp(81,17): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  Lab3_rand.vcxproj -> C:\Users\user\source\repos\OOP_Tanya\Lab3(rand)\Lab3_rand\x64\Debug\Lab3_rand.exe
