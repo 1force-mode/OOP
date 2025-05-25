@@ -1,5 +1,0 @@
-﻿  Laboratornay2.cpp
-C:\Users\user\source\repos\OOP_Tanya\Lab3(rand)\Lab3_rand\Laboratornay2.cpp(76,18): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\user\source\repos\OOP_Tanya\Lab3(rand)\Lab3_rand\Laboratornay2.cpp(81,17): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\user\source\repos\OOP_Tanya\Lab3(rand)\Lab3_rand\Laboratornay2.cpp(103,17): warning C4566: символ, представленный универсальным именем символа "\u03C3", невозможно представить в текущей кодовой странице (1251)
-  Laboratornay2.vcxproj -> C:\Users\user\source\repos\OOP_Tanya\Lab3(rand)\Lab3_rand\x64\Debug\Laboratornay2.exe
