@@ -35,16 +35,6 @@ double* GenNormalArray(int size, double mean, double stddev) {
     return array;
 }
 
-//Вывод массива
-void PrintArray(double* array, int size) {
-    cout << "\n=== Generated Array ===\n";
-    for (int i = 0; i < size; i++) {
-        cout << fixed << setprecision(4) << setw(10) << array[i];
-        if ((i + 1) % 5 == 0) cout << endl;
-    }
-    cout << "\n====================\n";
-}
-
 //Расчёт математического ожидания
 double CalculateMean(double* array, int size) {
     double sum = 0;
@@ -88,7 +78,7 @@ void CreateHistogram(double* array, int size) {
         double interval_start = min_val + pair.first * bin_width;
         double interval_end = interval_start + bin_width;
         cout << "[" << interval_start << " - " << interval_end << "]: "
-            << string(pair.second * 20 / size, '*') << endl;
+            << string(pair.second * 50 / size, '*') << endl;
     }
 }
 
