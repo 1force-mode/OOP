@@ -107,7 +107,6 @@ int main() {
             double a = 0;
             double b = N * 10;
             current_array = GenUniformArray(current_size, a, b);
-            //PrintArray(current_array, current_size);
             break;
         }
         case 2: {
@@ -116,7 +115,6 @@ int main() {
             double mean = N * 5;
             double stddev = N * 2.5;
             current_array = GenNormalArray(current_size, mean, stddev);
-            //PrintArray(current_array, current_size);
             break;
         }
         case 3: {
