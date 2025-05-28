@@ -74,6 +74,7 @@ void CreateHistogram(double* array, int size) {
 
     cout << "\n=== Histogram ===\n";
     //Вывод гистограммы
+    //след. строчку можно заменить на -> for (const std::pair<const int, int>& pair : histogram)
     for (const auto& pair : histogram) {
         double interval_start = min_val + pair.first * bin_width;
         double interval_end = interval_start + bin_width;
